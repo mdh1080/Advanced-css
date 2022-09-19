@@ -85,7 +85,8 @@ button {
   cursor: pointer;
 }
 
-/* What does this CSS rule do? */
+/* What does this CSS rule do? It puts the dropdown box on the right side of the page 
+and gives the dropdown box a triangle*/
 select {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -112,12 +113,13 @@ select:hover, button:hover {
   box-shadow: 0 0 5px #999;
 }
 
-/* What does this pseudo-class mean? */
+/* What does this pseudo-class mean? Gives focus to the text field. Box to type text on form */
 .text-input:focus {
   border-right-width: 5px;
 }
 
-/* What does this pseudo-class mean? */
+/* What does this pseudo-class mean? puts text in the form boxes
+ - first last, me@example.com, and great article!*/
 .text-input:placeholder-shown {
   border-style: dashed;
 }
@@ -136,13 +138,13 @@ select:hover, button:hover {
   margin-right: 2%;
 }
 
-/* What does this selector do? */
+/* What does this selector do? changes the font and color of the text for the checkbox when it is checked*/
 .checkbox:checked + label {
   color: #999999;
   font-style: italic;
 }
 
-/* What does this selector do? */
+/* What does this selector do? Adds the word thanks! to the end of the sentence when the checkbox is checked */
 .checkbox:checked + label::after {
   margin-left: 10px;
   font-size: 90%;
