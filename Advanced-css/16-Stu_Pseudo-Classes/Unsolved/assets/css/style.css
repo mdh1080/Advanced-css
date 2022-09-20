@@ -102,4 +102,11 @@ footer {
     width: 100%;
     text-align: center;
   }
-}
+  .resources .links {
+    display: none;
+    padding: 1% 0;
+  }
+
+  .resources:hover .links {
+    display: block;
+  }

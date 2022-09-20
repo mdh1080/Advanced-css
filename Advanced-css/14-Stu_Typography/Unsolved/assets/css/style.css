@@ -61,6 +61,7 @@ section {
 
 article {
   border-bottom: 1px solid #d8a47f;
+
 }
 
 /* TODO: Add a margin to the top and bottom of the paragraphs */
@@ -72,7 +73,6 @@ article p {
 /* TODO: Add a margin to indent the list, give it square bullet points, and assign font family to monospace */
 article ul {
   margin: 5%;
-  list-style-type: square;
   font-family: monospace;
 }
 
