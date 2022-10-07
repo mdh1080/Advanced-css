@@ -52,7 +52,8 @@ footer {
 
 .product-slideshow {
   display: flex;
-  height: 20px;
+  align-items: center;
+  
 }
 
 .product-image {
@@ -69,11 +70,13 @@ footer {
   nav,
   .product {
     flex-direction: column;
+    
   }
 
   .product-slideshow button {
     /* Removes the slideshow buttons from the document flow */
-    display: flex; height: 20px;
+    display: none;
+    
   }
 
  
